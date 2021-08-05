@@ -111,9 +111,6 @@ const Header = ({
                       'list-reset text-xs',
                       navPosition && `header-nav-${navPosition}`
                     )}>
-                    <li>
-                      <a href="https://central-1.gitbook.io/central/" target="_blank" rel="noopener noreferrer" onClick={closeMenu}>Documentation</a>
-                    </li>
                   </ul>
                   {!hideSignin &&
                     <ul

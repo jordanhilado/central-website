@@ -65,11 +65,9 @@ const Hero = ({
                 </p>
               <div className="reveal-from-bottom" data-reveal-delay="600">
                 <ButtonGroup>
-                  <Button tag="a" color="primary" href="/Demo" wideMobile>Try Demo
-                    </Button>
-                  <Button tag="a" color="dark" wideMobile href="https://github.com/cruip/open-react-template/">
-                    View on Github
-                    </Button>
+                  <Button tag="a" color="primary" href="/Demo" wideMobile>Try Demo</Button>
+                  <Button tag="a" color="dark" wideMobile href="https://github.com/jordanhilado/central-website" target="_blank" rel="noopener noreferrer">View on Github</Button>
+                  <Button tag="a" color="dark" wideMobile href="https://central-1.gitbook.io/central/" target="_blank" rel="noopener noreferrer">Documentation</Button>
                 </ButtonGroup>
               </div>
             </div>
