@@ -2,7 +2,7 @@ import React, { useState, useRef, useEffect } from 'react';
 import PropTypes from 'prop-types';
 import classNames from 'classnames';
 // import { Link } from 'react-router-dom';
-import Logo from './partials/Logo';
+import Logo from './partials/Logo'
 
 const propTypes = {
   navPosition: PropTypes.string,

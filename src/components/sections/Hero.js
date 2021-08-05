@@ -6,8 +6,6 @@ import Button from '../elements/Button';
 import Image from '../elements/Image';
 import Modal from '../elements/Modal';
 
-import { BrowserRouter, Route, Link } from 'react-router-dom';
-
 const propTypes = {
   ...SectionProps.types
 }
@@ -67,8 +65,7 @@ const Hero = ({
                 </p>
               <div className="reveal-from-bottom" data-reveal-delay="600">
                 <ButtonGroup>
-                  <Button tag="a" color="primary" wideMobile>
-                    <Route path="/Demo">Try Demo</Route>
+                  <Button tag="a" color="primary" href="/Demo" wideMobile>Try Demo
                     </Button>
                   <Button tag="a" color="dark" wideMobile href="https://github.com/cruip/open-react-template/">
                     View on Github
