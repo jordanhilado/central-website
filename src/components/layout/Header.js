@@ -1,9 +1,9 @@
 import React, { useState, useRef, useEffect } from 'react';
 import PropTypes from 'prop-types';
 import classNames from 'classnames';
-// import { Link } from 'react-router-dom';
-import Logo from './partials/Logo';
+import Logo from './partials/Logo'
 
+// define proptypes for each header component
 const propTypes = {
   navPosition: PropTypes.string,
   hideNav: PropTypes.bool,
@@ -12,6 +12,7 @@ const propTypes = {
   bottomDivider: PropTypes.bool
 }
 
+// define default props for header
 const defaultProps = {
   navPosition: '',
   hideNav: false,
@@ -20,6 +21,7 @@ const defaultProps = {
   bottomDivider: false
 }
 
+// define header navigation styling components
 const Header = ({
   className,
   navPosition,
@@ -74,6 +76,7 @@ const Header = ({
     className
   );
 
+  // display logo on header
   return (
     <header
       {...props}
@@ -85,44 +88,8 @@ const Header = ({
             'site-header-inner',
             bottomDivider && 'has-bottom-divider'
           )}>
+          {/* display logo */}
           <Logo />
-          {!hideNav &&
-            <>
-              <button
-                ref={hamburger}
-                className="header-nav-toggle"
-                onClick={isActive ? closeMenu : openMenu}
-              >
-                <span className="screen-reader">Menu</span>
-                <span className="hamburger">
-                  <span className="hamburger-inner"></span>
-                </span>
-              </button>
-              <nav
-                ref={nav}
-                className={
-                  classNames(
-                    'header-nav',
-                    isActive && 'is-active'
-                  )}>
-                <div className="header-nav-inner">
-                  <ul className={
-                    classNames(
-                      'list-reset text-xs',
-                      navPosition && `header-nav-${navPosition}`
-                    )}>
-                    <li>
-                      <a href="https://central-1.gitbook.io/central/" target="_blank" rel="noopener noreferrer" onClick={closeMenu}>Documentation</a>
-                    </li>
-                  </ul>
-                  {!hideSignin &&
-                    <ul
-                      className="list-reset header-nav-right"
-                    >
-                    </ul>}
-                </div>
-              </nav>
-            </>}
         </div>
       </div>
     </header>
