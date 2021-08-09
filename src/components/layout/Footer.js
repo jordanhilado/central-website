@@ -5,16 +5,19 @@ import Logo from './partials/Logo';
 // import FooterNav from './partials/FooterNav';
 // import FooterSocial from './partials/FooterSocial';
 
+// set prop types for dividers
 const propTypes = {
   topOuterDivider: PropTypes.bool,
   topDivider: PropTypes.bool
 }
 
+//set default props for the dividers
 const defaultProps = {
   topOuterDivider: false,
   topDivider: false
 }
 
+// set footer
 const Footer = ({
   className,
   topOuterDivider,

@@ -4,6 +4,7 @@ import { SectionTilesProps } from '../../utils/SectionProps';
 import SectionHeader from './partials/SectionHeader';
 import Image from '../elements/Image';
 
+// this component displays descriptions of the six features in the middle of the page
 const propTypes = {
   ...SectionTilesProps.types
 }
@@ -43,6 +44,7 @@ const FeaturesTiles = ({
     pushLeft && 'push-left'
   );
 
+  // main title of this section along with description
   const sectionHeader = {
     title: 'Make your workflow faster than ever',
     paragraph: 'Using Central\'s easy CLI tool, you\'ll be able to make actions like GitHub commits with much less work, in addition to being able to search your top developer sites seamlessly.'
@@ -69,6 +71,7 @@ const FeaturesTiles = ({
                       height={64} />
                   </div>
                 </div>
+                {/* first card */}
                 <div className="features-tiles-item-content">
                   <h4 className="mt-0 mb-8">
                     Easy installation
@@ -93,6 +96,7 @@ const FeaturesTiles = ({
                 </div>
                 <div className="features-tiles-item-content">
                   <h4 className="mt-0 mb-8">
+                    {/* second card */}
                     Simple commands
                     </h4>
                   <p className="m-0 text-sm">
@@ -115,6 +119,7 @@ const FeaturesTiles = ({
                 </div>
                 <div className="features-tiles-item-content">
                   <h4 className="mt-0 mb-8">
+                    {/* third card */}
                     Convenient for any work
                     </h4>
                   <p className="m-0 text-sm">
@@ -137,7 +142,8 @@ const FeaturesTiles = ({
                 </div>
                 <div className="features-tiles-item-content">
                   <h4 className="mt-0 mb-8">
-                    Stack Overflow implementation
+                    {/* fourth card */}
+                    Stack Overflow API
                     </h4>
                   <p className="m-0 text-sm">
                     Using Stack Exchange's advanced search API, you'll be able to search and gather user results straight from your terminal.
@@ -159,7 +165,8 @@ const FeaturesTiles = ({
                 </div>
                 <div className="features-tiles-item-content">
                   <h4 className="mt-0 mb-8">
-                    YouTube implementation
+                    {/* fifth card */}
+                    YouTube API
                     </h4>
                   <p className="m-0 text-sm">
                     Using Google's YouTube API, you'll be able to find the videos you need straight from your terminal.
@@ -181,10 +188,11 @@ const FeaturesTiles = ({
                 </div>
                 <div className="features-tiles-item-content">
                   <h4 className="mt-0 mb-8">
-                    Open source
+                    {/* sixth card */}
+                    Google API
                     </h4>
                   <p className="m-0 text-sm">
-                    As a community-driven product, we strive for open source contributions to make Central the best tool possible.
+                    Using Google's API, you'll be able to find the resources and links you need straight from your terminal.
                     </p>
                 </div>
               </div>

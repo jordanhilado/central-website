@@ -4,6 +4,7 @@ import { SectionSplitProps } from '../../utils/SectionProps';
 import SectionHeader from './partials/SectionHeader';
 import Image from '../elements/Image';
 
+// this will be the section of the front page that shows GIFs corresponding to what actions will be done
 const propTypes = {
   ...SectionSplitProps.types
 }
@@ -26,7 +27,7 @@ const FeaturesSplit = ({
   imageFill,
   ...props
 }) => {
-
+  // define classes
   const outerClasses = classNames(
     'features-split section',
     topOuterDivider && 'has-top-divider',
@@ -66,13 +67,16 @@ const FeaturesSplit = ({
 
             <div className="split-item">
               <div className="split-item-content center-content-mobile reveal-from-left" data-reveal-container=".split-item">
+                {/* subtitle of the card */}
                 <div className="text-xxs text-color-primary fw-600 tt-u mb-8">
                   Lightning fast
                   </div>
                 <h3 className="mt-0 mb-12">
+                  {/* title of the card */}
                   Write less commands, accomplish more
                   </h3>
                 <p className="m-0">
+                  {/* description of the card */}
                   Make a commit, name it, and push to your branch with just one command.
                   </p>
               </div>
@@ -93,12 +97,15 @@ const FeaturesSplit = ({
             <div className="split-item">
               <div className="split-item-content center-content-mobile reveal-from-right" data-reveal-container=".split-item">
                 <div className="text-xxs text-color-primary fw-600 tt-u mb-8">
+                  {/* subtitle of the card */}
                   Query search results
                   </div>
                 <h3 className="mt-0 mb-12">
-                  Look for help on Stack Overflow and YouTube
+                  {/* title of the card */}
+                  Look for help on Stack Overflow, Google and YouTube
                   </h3>
                 <p className="m-0">
+                  {/* description of the card */}
                   Without going through the inconvenice of having to open multiple tabs to search for the help you need, using Central's query search commands, you'll be able to solve your bugs and errors faster.
                   </p>
               </div>

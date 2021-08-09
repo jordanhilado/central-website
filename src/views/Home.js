@@ -6,6 +6,7 @@ import FeaturesSplit from '../components/sections/FeaturesSplit';
 
 const Home = () => {
 
+// include Hero, Tiles, and Split
   return (
     <>
       <Hero className="illustration-section-01" />

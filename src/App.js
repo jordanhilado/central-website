@@ -33,6 +33,7 @@ const App = () => {
     // eslint-disable-next-line react-hooks/exhaustive-deps
   }, [location]);
 
+  // React Router setup
   return (
     <ScrollReveal
       ref={childRef}
