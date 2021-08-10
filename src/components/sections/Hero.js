@@ -78,7 +78,7 @@ const Hero = ({
             </div>
           </div>
           <div className="hero-figure reveal-from-bottom illustration-element-01" data-reveal-value="20px" data-reveal-delay="800">
-          <Image className="has-shadow" alt="Hero" width={896} height={504} src={require('../../assets/images/giphy.gif')}/>
+          <Image className="has-shadow" alt="Hero" width={896} height={504} src={require('../../assets/images/cntrl.gif')}/>
           </div>
           <Modal
             id="video-modal"
