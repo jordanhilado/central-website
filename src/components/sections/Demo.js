@@ -10,7 +10,7 @@ require("isomorphic-fetch");
 
 const Demo = () => {
     // define base URL to pull from
-    const baseURL = "https://central-server-13.herokuapp.com"
+    const baseURL = "http://172.105.38.98/"
     // set states for the searchbar and the three respective API's to be used
     const [searchText, setSearchText] = useState("")
     const [stackoverflow, setStackOverflow] = useState([])
@@ -32,7 +32,7 @@ const Demo = () => {
                 <div className="content">
                     <Logo className="headTitle mt-0 mb-16 reveal-from-bottom logo" data-reveal-delay="200"/>
                     <h1 className="headTitle mt-0 mb-16 reveal-from-bottom" data-reveal-delay="200">Live Demo</h1>
-                    <p className="m-0 mb-32 reveal-from-bottom description" data-reveal-delay="300">Use the search bar below to search for content from Stack Overflow, YouTube and Google.<br/>Once you enter a query, press the magnifying glass to complete your search.</p>
+                    <p className="m-0 mb-32 reveal-from-bottom description" data-reveal-delay="300">Use the search bar below to search for content from Stack Overflow, YouTube and Google.<br/>Once you enter a query, press enter/return to complete your search.</p>
                     <div className="m-0 mb-32 reveal-from-bottom" data-reveal-delay="600">
                         <form action="" onSubmit={onSubmit}>
                             <input value={searchText} onChange={(e) => setSearchText(e.target.value)} type="search"/>
