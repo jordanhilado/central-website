@@ -36,7 +36,7 @@ const Demo = () => {
                     <div className="m-0 mb-32 reveal-from-bottom" data-reveal-delay="600">
                         <form action="" onSubmit={onSubmit}>
                             <input value={searchText} onChange={(e) => setSearchText(e.target.value)} type="search"/>
-                            <button><i class="fa fa-search"></i></button>
+                            <button type="button"><i class="fa fa-search search2"></i></button>
                         </form>
                         {/* define data tables for each API to be used */}
                         <Datatable data={stackoverflow}/>

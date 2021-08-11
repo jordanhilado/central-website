@@ -71,14 +71,14 @@ const Hero = ({
                 {/* define three buttons */}
                 <ButtonGroup>
                   <Button tag="a" color="primary" href="/Demo" wideMobile>Try Demo</Button>
-                  <Button tag="a" color="dark" wideMobile href="https://github.com/jordanhilado/central-website" target="_blank" rel="noopener noreferrer">View on Github</Button>
+                  <Button tag="a" color="dark" wideMobile href="https://github.com/masterchief01/central-cli" target="_blank" rel="noopener noreferrer">View on Github</Button>
                   <Button tag="a" color="dark" wideMobile href="https://central-1.gitbook.io/central/" target="_blank" rel="noopener noreferrer">Documentation</Button>
                 </ButtonGroup>
               </div>
             </div>
           </div>
           <div className="hero-figure reveal-from-bottom illustration-element-01" data-reveal-value="20px" data-reveal-delay="800">
-          <Image className="has-shadow" alt="Hero" width={896} height={504} src={require('../../assets/images/cntrl.gif')}/>
+          <Image className="has-shadow" alt="Hero" width={896} height={504} src={require('../../assets/images/cntrl2.gif')}/>
           </div>
           <Modal
             id="video-modal"

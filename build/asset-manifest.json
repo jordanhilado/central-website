@@ -1,34 +1,32 @@
 {
   "files": {
-    "main.css": "/static/css/main.6365b50b.chunk.css",
-    "main.js": "/static/js/main.8382a6f0.chunk.js",
-    "main.js.map": "/static/js/main.8382a6f0.chunk.js.map",
-    "runtime-main.js": "/static/js/runtime-main.b8b9f84b.js",
-    "runtime-main.js.map": "/static/js/runtime-main.b8b9f84b.js.map",
-    "static/js/2.b25450ff.chunk.js": "/static/js/2.b25450ff.chunk.js",
-    "static/js/2.b25450ff.chunk.js.map": "/static/js/2.b25450ff.chunk.js.map",
+    "main.css": "/static/css/main.603393c0.chunk.css",
+    "main.js": "/static/js/main.9603f192.chunk.js",
+    "main.js.map": "/static/js/main.9603f192.chunk.js.map",
+    "runtime-main.js": "/static/js/runtime-main.bf9f4589.js",
+    "runtime-main.js.map": "/static/js/runtime-main.bf9f4589.js.map",
+    "static/js/2.63fca06c.chunk.js": "/static/js/2.63fca06c.chunk.js",
+    "static/js/2.63fca06c.chunk.js.map": "/static/js/2.63fca06c.chunk.js.map",
     "index.html": "/index.html",
-    "precache-manifest.32326e849c322cf0f64af86d59688111.js": "/precache-manifest.32326e849c322cf0f64af86d59688111.js",
+    "precache-manifest.8606bb1b59e959ce52e4df7145915f7f.js": "/precache-manifest.8606bb1b59e959ce52e4df7145915f7f.js",
     "service-worker.js": "/service-worker.js",
-    "static/css/main.6365b50b.chunk.css.map": "/static/css/main.6365b50b.chunk.css.map",
-    "static/js/2.b25450ff.chunk.js.LICENSE.txt": "/static/js/2.b25450ff.chunk.js.LICENSE.txt",
+    "static/css/main.603393c0.chunk.css.map": "/static/css/main.603393c0.chunk.css.map",
+    "static/js/2.63fca06c.chunk.js.LICENSE.txt": "/static/js/2.63fca06c.chunk.js.LICENSE.txt",
     "static/media/style.scss": "/static/media/illustration-section-02.63d0555d.svg",
+    "static/media/favicon.svg": "/static/media/favicon.0079f04a.svg",
     "static/media/feature-tile-icon-01.svg": "/static/media/feature-tile-icon-01.0f9928d7.svg",
     "static/media/feature-tile-icon-02.svg": "/static/media/feature-tile-icon-02.bd39f304.svg",
     "static/media/feature-tile-icon-03.svg": "/static/media/feature-tile-icon-03.66f37ba5.svg",
     "static/media/feature-tile-icon-04.svg": "/static/media/feature-tile-icon-04.836acd10.svg",
     "static/media/feature-tile-icon-05.svg": "/static/media/feature-tile-icon-05.fa9ba00b.svg",
     "static/media/feature-tile-icon-06.svg": "/static/media/feature-tile-icon-06.6a177696.svg",
-    "static/media/features-split-image-01.png": "/static/media/features-split-image-01.d9cb99ce.png",
-    "static/media/features-split-image-02.png": "/static/media/features-split-image-02.3c569239.png",
-    "static/media/features-split-image-03.png": "/static/media/features-split-image-03.87e4d053.png",
-    "static/media/logo.svg": "/static/media/logo.2810a88b.svg",
-    "static/media/video-placeholder.jpg": "/static/media/video-placeholder.a622fc5d.jpg"
+    "static/media/giphy.gif": "/static/media/giphy.433512ea.gif",
+    "static/media/terminal.png": "/static/media/terminal.fcdafa9b.png"
   },
   "entrypoints": [
-    "static/js/runtime-main.b8b9f84b.js",
-    "static/js/2.b25450ff.chunk.js",
-    "static/css/main.6365b50b.chunk.css",
-    "static/js/main.8382a6f0.chunk.js"
+    "static/js/runtime-main.bf9f4589.js",
+    "static/js/2.63fca06c.chunk.js",
+    "static/css/main.603393c0.chunk.css",
+    "static/js/main.9603f192.chunk.js"
   ]
 }
