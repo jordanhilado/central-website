@@ -10,7 +10,7 @@ require("isomorphic-fetch");
 
 const Demo = () => {
     // define base URL to pull from
-    const baseURL = "http://172.105.38.98"
+    const baseURL = "https://cntrl-server.tech"
     // set states for the searchbar and the three respective API's to be used
     const [searchText, setSearchText] = useState("")
     const [stackoverflow, setStackOverflow] = useState([])
